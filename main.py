@@ -1,6 +1,9 @@
 from function import limpar
 from function import lin
 from function import tempo
+from ClassFuncionario import Funcionario
+from ClassRetangulo import Retangulo
+
 
 opcao = 1
 while (opcao != 0):
@@ -57,7 +60,6 @@ while (opcao != 0):
         tempo()
 
     elif (opcao == 3):
-        from ClassRetangulo import Retangulo
 
         lin()
         print("************* QUESTÂO 3 - Medidas do Triângulo *************")
@@ -80,8 +82,7 @@ while (opcao != 0):
         tempo()
 
     elif (opcao == 4):
-        from ClassFuncionario import Funcionario
-
+        
         lin()
         print("********* QUESTÂO 4 - Impostos e Aumento de Salário ********")
         lin()
