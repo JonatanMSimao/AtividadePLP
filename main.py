@@ -23,17 +23,17 @@ while (opcao != 0):
         lin()
         print("************* QUESTÂO 1 - A Pessoa Mais Velha **************")
         lin()
-        print("Digite o nome da primeira pessoa: ")
+        print("Dados da primeira pessoa: ")
         p1 = input("Nome: ")
         i1 = int(input("Idade: "))
-        print("Digite o nome da Segunda pessoa: ")
+        print("Dados da Segunda pessoa: ")
         p2 = input("Nome: ")
         i2 = int(input("Idade: "))
 
         if (i1 > i2):
-            print("pessoa mais velha: {}".format(p1))
+            print("Pessoa Mais Velha: {}".format(p1))
         else:
-            print("pessoa mais velha: {}".format(p2))
+            print("Pessoa Mais Velha: {}".format(p2))
 
         print("")
         tempo()
